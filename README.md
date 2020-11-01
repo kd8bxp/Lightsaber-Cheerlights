@@ -14,6 +14,10 @@ Loaded code on the Mega, hooked up MP3 to serial 1, found "saberon.mp3" "saberof
 Depending on how the files go on your SD card you may need to change the order they play in the sketch (beyond the scope of this.)
 That is pretty much it.
 
+## Libraries
+
+Because the Arduino IDE has been getting pretty bad handling libraries, I've included the libraries used in the src directory of the sketch. These libraries may have been slightly modified to work from the sketch directory, and do not include the examples.  
+
 ## Things To Do
 
 Build a box for my MP3/Arduino/speaker to hide the wires.

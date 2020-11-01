@@ -1,7 +1,7 @@
 
 #include <SPI.h>
 #include <Ethernet.h>
-#include <Adafruit_NeoPixel.h>
+#include "src/Adafruit_NeoPixel/Adafruit_NeoPixel.h"
 
 
 static int8_t Send_buf[8] = {0} ;
@@ -309,4 +309,3 @@ void sendCommand(int8_t command, int16_t dat)
     Serial1.write(Send_buf[i]) ;
   }
 }
-
